@@ -1,0 +1,17 @@
+{
+  "name": "mage-wizz/module-base",
+  "version": "1.0.0",
+  "description": "This is the base module for MageWizz",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageWizz\\Base\\": ""
+    }
+  }
+}
